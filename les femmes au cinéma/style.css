@@ -1,0 +1,76 @@
+/* Genel stil ayarları */
+body {
+    font-family: 'Arsenal', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin: 0 80px; /* Sayfa kenarlarına 20 piksel boşluk ekle */
+}
+
+.title {
+    text-align: left; /* Başlığı sola hizala */
+}
+
+.text {
+    text-align: left; /* Metni sola hizala */
+}
+
+
+/* Menü stil ayarları */
+
+
+/*.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}*/
+
+/*.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}*/
+
+/* Başlık stil ayarları */
+
+
+/* Düğme stil ayarları */
+/*.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}*/
+
+/*.btn:hover {
+    background-color: #0056b3;
+}*/
+
+/* Form stil ayarları */
+/*.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}*/
+
+/* Diğer bileşen stil ayarları */
+/* Buraya diğer bileşenlerin stillerini ekleyebilirsiniz */

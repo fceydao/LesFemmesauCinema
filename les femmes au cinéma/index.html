@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>les femmes au cinéma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet">
+    <link rel="icon" href="f.ico" type="image/x-icon">
+  </head>
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       .navbar {
+          background-color: #520303;
+          color: #ffffff;
+          font-family: 'Arsenal', sans-serif;
+        }
+
+        .navbar-brand, .navbar-nav, .nav-link {
+           color: white;
+        }
+        .dropdown-item:hover,
+        .dropdown-item:focus,
+        .dropdown-item.active, .dropdown-item:active {
+          background-color: rgba(0, 36, 102, 0.836); /* Seçilen öğelerin arkaplan rengini kırmızı yapar */
+          color: rgb(255, 255, 255); /* Seçilen öğelerin metin rengini beyaz yapar */
+        }
+
+
+    </style>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      // Justine Triet linkini seç
+      var justineTrietLink = document.getElementById('justine-triet-link');
+      // Justine Triet linkine tıklama olayı ekle
+      justineTrietLink.addEventListener('click', function(event) {
+        // Tıklanan linkin varsayılan işlevini engelle
+        event.preventDefault();
+        // Yönlendirilecek URL
+        var targetUrl = 'https://mubi.com/tr/cast/justine-triet';
+        // Hedef URL'ye yönlendir
+        window.location.href = targetUrl;
+        console.log("JavaScript kodu çalışıyor...");
+
+      });
+    </script>
+  </body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">les femmes au cinéma</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">ana sayfa</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              yönetmenler
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://mubi.com/tr/cast/justine-triet">justine triet</a></li>
+              <li><a class="dropdown-item" href="https://mubi.com/tr/cast/agnes-varda">agnès varda</a></li>
+              <li><a class="dropdown-item" href="https://mubi.com/tr/cast/belmin-soylemez">belmin söylemez</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">et réalisateurs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              oyuncular
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://mubi.com/tr/cast/sandra-huller">sandra hüller</a></li>
+              <li><a class="dropdown-item" href="https://mubi.com/tr/cast/emma-stone">emma stone</a></li>
+              <li><a class="dropdown-item" href="https://mubi.com/tr/cast/senay-aydin">şenay aydın</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">et actrices</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">iletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3500">
+            <img src="pics/kk.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img src="pics/k.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img src="pics/aarop.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </header>
+<main>
+    <div class="card-group">
+        <div class="card">
+          <img src="pics/aaafis.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ayna ayna & belmin söylemez</h5>
+            <p class="card-text">Amatör bir tiyatroda yolları kesişen, bambaşka hayatlar yaşasalar da benzer duygusal ve finansal çıkmazlar içinde hayallerinin peşinden giden, patriyarkanın ve giderek daha fazla muhafazakârlaşan bir toplumun içinde var olma mücadelesi veren üç kadın karaktere çeviriyor kamerasını. Dördüncü bir karakter ise -Söylemez’in ifadesiyle- şehrin, İstanbul’un ta kendisi.</p>
+          </div>
+          <div class="card-footer">
+            <small><a href="aa.html" class="text-body-secondary">yazı için tıklayın.</a></small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pics/adsafis.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">aftersun & charlotte wells</h5>
+            <p class="card-text">Fethiye’de bir tatil, 90lı yılların sonu, bol güneş, fonda Candan Erçetin ve bir baba kız hikayesi. “Geçmişten bir anıyı yad etmek ve o anın size ne hissettirdiğini hatırlamaya çalışmak yepyeni bir duyguyu beraberinde getiriyor.” diyor Wells.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">...yakında</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pics/ptafis.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">poor things & emma stone</h5>
+            <p class="card-text">
+              Venedik’ten Altın Aslan’la dönen ve Oscar yarışında da öne çıkan Zavallılar’da Yorgos Lanthimos, meraklı ve sabırsız bir çocuk-kadının büyüme hikâyesini anlatıyor. Görsel dünyası ve sinema tarihi referanslarıyla Lanthimos filmografisi içinde şimdiden kendine has bir yer edinen film, hızlandırılmış bir kadın özgürleşmesi anlatısı kurarken Alasdair Gray’in romanındaki bakış açısını değiştirerek ideolojik bir kırılmaya da yol açıyor.</p>
+          </div>
+          <div class="card-footer">
+            <small><a href="pt.html" class="text-body-secondary">yazı için tıklayın.</a></small>
+          </div>
+        </div>
+      </div>
+</main>
+  <footer class="bg-dark text-white p-3 text-center mt-2">
+    @powered by Bootstrap
+  </footer>
+</html>
