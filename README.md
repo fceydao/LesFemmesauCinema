@@ -15,7 +15,7 @@ Pour exécuter le site localement, assurez-vous d'avoir un environnement de serv
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-nom-utilisateur/les-femmes-au-cinema.git
+   git clone https://github.com/fceydao/les-femmes-au-cinema.git
 
 2. Accédez au répertoire du projet :
    ```bash
@@ -49,7 +49,7 @@ To run the website locally, ensure you have a web server environment set up. You
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/les-femmes-au-cinema.git
+   git clone https://github.com/fceydao/les-femmes-au-cinema.git
 
 2. Navigate to the project directory:
    ```bash
