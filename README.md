@@ -1,7 +1,3 @@
-
-### README.md (Français)
-
-```markdown
 # les-femmes-au-cinema
 
 Bienvenue sur **les-femmes-au-cinema**, une archive web dédiée à la célébration des femmes dans le cinéma. Notre site se concentre sur les réalisatrices, les actrices et les histoires centrées autour des femmes, offrant une riche collection d'œuvres cinématographiques qui mettent en avant les contributions des femmes à l'industrie du film.
